@@ -1,7 +1,0 @@
-[build]
-builder = "nixpacks"
-buildCommand = "pip install requests PyJWT cryptography python-dotenv"
-
-[deploy]
-startCommand = "python main.py"
-restartPolicyType = "always"
