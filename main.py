@@ -1,14 +1,14 @@
-import subprocess, sys, os
-
-# INSTALL FIRST — before any other imports
-subprocess.check_call(
-    [sys.executable, "-m", "pip", "install",
-     "requests", "PyJWT", "cryptography", "python-dotenv",
-     "-q", "--disable-pip-version-check"]
-)
-
-# Now safe to import
+import os     
 import time
+
+
+
+
+
+
+
+
+
 import threading
 import requests
 import json
